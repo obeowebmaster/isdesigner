@@ -8,12 +8,12 @@ title: Information System Designer | Home
         <div class="row align-items-end">
             {% include section_intro.html
                 title="Analysez, concevez, partagez !" 
-                desc="Un outil ZZZ open-source complet pour décrire visuellement les applications de votre système d’information."                
+                desc="Un outil open-source complet pour décrire visuellement les applications de votre système d’information."                
                 
                 href_1="download.html"
                 btn_txt_1="C'est parti"
                 target_1="self"
-                href_2="overview.html"      
+                href_2="https://github.com/ObeoNetwork/InformationSystem/wiki"      
                 btn_txt_2="Fonctionnalités"
                 target_2="self"      
                 
@@ -37,21 +37,21 @@ title: Information System Designer | Home
             <div class="row">
                 {% include block_cols.html
                     col="4"
-                    icon_name="fas fa-stream"
+                    icon_name="fas fa-users"
                     icon_color="txt_indigo"
                     title="Analyste métier" 
                     desc="Capturer les besoins et dialoguer avec les concepteurs et développeurs"
                 %}
                 {% include block_cols.html
                     col="4"
-                    icon_name="fas fa-stream"
+                    icon_name="fas fa-desktop"
                     icon_color="txt_indigo"
                     title="Concepteur Front-End" 
                     desc="Concevoir les interfaces utilisateurs et les interactions avec le back-end"
                 %}
                 {% include block_cols.html
                     col="4"
-                    icon_name="fas fa-stream"
+                    icon_name="fas fa-server"
                     icon_color="txt_indigo"
                     title="Concepteur Back-End" 
                     desc="Définir les services applicatifs, les objets métiers et la base de données"
@@ -66,15 +66,23 @@ title: Information System Designer | Home
         {% include block_text_image.html
             txt_order="order-1"
             title="Editeurs graphiques dédiés"                
-            desc="<p>Des éditeurs graphiques dédiés permettent de modéliser visuellement les différents aspects d’une application :<ul><li>Exigences</li><li>Scénarios d'usage</li><li>de données</li><li>Entités de données</li><li>Services</li><li>IHM</li></ul></p>"
-        
+            desc="<p>Des éditeurs graphiques dédiés permettent de modéliser visuellement les différents aspects d’une application :
+        <ul>
+
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---Requirements-tooling' target='_blank'>Exigences</a></li>
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---Graal-tooling' target='_blank'>Scénarios d'usage</a></li>
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---Base-de-donnees-et-Scaffolding' target='_blank'>Bases de données</a></li>
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---Entity-Designer' target='_blank'>Entités de données</a></li>
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---SOA-Designer' target='_blank'>Services</a></li>
+            <li><a href='https://github.com/ObeoNetwork/InformationSystem/wiki/Obeo-Network---Cinematic-tooling' target='_blank'>IHM</a></li></ul></p>"
+
             lnk_txt=""
             lnk_href=""
             lnk_target=""
             lnk_icon=""
 
             img_order="order-2"
-            img_src="images/illustrations/sirius-overview.png"
+            img_src="images/illustrations/screenshot-isd.png"
             img_title="Information System Designer - What is Information System Designer?"
         %}
     </div>
@@ -91,7 +99,7 @@ title: Information System Designer | Home
     <div class="row">
         {% include block_cols.html
             col="3"
-            icon_name="far fa-file-alt"
+            icon_name="far fa-lightbulb"
             icon_color="txt_indigo"
             title="Créativité" 
             desc="Fournit un support de réflexion complet, visuel, et partagé pour l'analyse et la conception"
@@ -101,7 +109,7 @@ title: Information System Designer | Home
         %}
         {% include block_cols.html
             col="3"
-            icon_name="far fa-file-alt"
+            icon_name="fas fa-tachometer-alt"
             icon_color="txt_indigo"
             title="Productivité" 
             desc="Améliore la productivité et la qualité depuis les spécifications jusqu'au développement"
@@ -112,7 +120,7 @@ title: Information System Designer | Home
         %}
         {% include block_cols.html
             col="3"
-            icon_name="far fa-file-alt"
+            icon_name="far fa-share-square"
             icon_color="txt_indigo"
             title="Partage" 
             desc="Facilite le partage de connaissances (techniques et métier) et la montée en compétence sur un projet"
@@ -123,7 +131,7 @@ title: Information System Designer | Home
         %}
         {% include block_cols.html
             col="3"
-            icon_name="far fa-file-alt"
+            icon_name="far fa-gem"
             icon_color="txt_indigo"
             title="Connaissance" 
             desc="Maintient une connaissance sur le long terme sur les choix de conception d'une application"
@@ -144,31 +152,31 @@ title: Information System Designer | Home
         %}
         <div class="row align-items-center">
             <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p><a href="https://github.com/ObeoNetwork/InformationSystem" title="Logo Github" target="_blank"><img src="images/logos/logo-github.png" width="200"></a></p>
                 <p>Le code complet de l’atelier Information System Designer est disponible sur GitHub</p>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p><a href="https://www.eclipse.org" title="Logo Eclipse" target="_blank"><img src="images/logos/logo-eclipse.png" width="200"></a></p>
                 <p>L’atelier Information System Designer est un ensemble packagé de plug-ins Eclipse</p>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p><a href="https://www.liquibase.org/" title="Logo Liquibase" target="_blank"><img src="images/logos/logo-liquibase.png" width="200"></a></p>
                 <p>Information System Designer s’appuie sur Liquibase pour rétro-modéliser des bases de données existantes</p>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p><a href="https://www.teclipse.org/sirius" title="Logo Eclipse Sirius" target="_blank"><img src="images/logos/logo-sirius.jpg" width="200"></a></p>
                 <p>Les éditeurs graphiques développés avec Sirius sont extensibles et personnalisables</p>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p><a href="https://www.openapis.org/" title="Logo OpenAPI" target="_blank"><img src="images/logos/logo-openapi.png" width="200"></a></p>
                 <p>Information System Designer permet de rétro-modéliser des interfaces de services définies avec OpenAPI</p>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p><a href="https://www.eclipse.org/acceleo/" title="Logo Acceleo" target="_blank"><img src="images/logos/logo-acceleo.jpg" width="200"></a></p>
                 <p>Les modèles créés avec Information System Designer peuvent servir pour générer du code avec Acceleo</p>
             </div>
         </div>
